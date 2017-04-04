@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--配置文件相当简单，<dbname>用于设定数据库的名字，
+<version>用于设定数据库的版本号，<list>用于设定所有的映射模型，我们稍后就会用到。
+升级的时候版本加1   把表添加进来
+只要遇见升级，不论是添加新的表了  还是列了   版本号都要加1
+-->
+<litepal>
+    <dbname value="Day_History" />
+    <version value="2" />
+    <list>
+        <mapping class = "com.baway.day_history.bean.Persontos"/>
+    </list>
+</litepal>

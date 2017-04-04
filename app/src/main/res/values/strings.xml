@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Day_History</string>
+    <string name="title_activity_base">BaseActivity</string>
+</resources>
